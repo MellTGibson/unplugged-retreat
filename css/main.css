@@ -140,11 +140,11 @@ p {
 }
 
 img {
+  width: 100%;
 
 }
-
 figure {
-
+  margin: 0;
 }
 
 address h4 {
@@ -180,11 +180,11 @@ header {
 }
 
 header .content-wrapper {
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    margin: 0;
 }
 
 
@@ -258,9 +258,13 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
+  background: url(../img/unplugged-retreat.jpg) center no-repeat #333;
+  background-size: cover;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+    
 }
 
 .hero-area h1 {
@@ -305,10 +309,11 @@ input[type=button] {
 /* Features */
 
 .features {
+    background: url(../img/unplugged-retreat-features.jpg) center no-repeat #333;
+    background-size: cover;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    
 }
 
 .features h2 {
@@ -530,22 +535,30 @@ header .content-wrapper {
 }
 
 header figure {
+ 
     width: 30%;
  }
 
 header nav {
-    width: 30%;
-}
+    width: 20%;
+ }
 
 header nav ul {
-    justify-content: space-around;
-}
+  justify-content: space-between;
+  padding-left: 0;
+
+  }
+    
 
 .header-divider {
     display: none;
 }
 
   /* Hero Area */
+
+.hero-area {
+  min-height: 600px;
+}
 
 .hero-area h1 {
   font-size: 3em;
@@ -572,6 +585,10 @@ aside .content-wrapper .form
 }
 
 /* Features Area */
+
+.features [
+  min-height: 860px;
+]
 
 .features h2 {
    margin: 0 20px 20px 0;
@@ -600,8 +617,9 @@ aside .content-wrapper .form
     width: 90%;
 }
 
+.reviews article figure,
 .reviews article div {
-    width: 49%;
+  width: 49%;
 }
 
  .reviews h3 {
@@ -693,14 +711,19 @@ footer .copyright {
 
 }
 
+/*========== Desktop Styles Here ============*/
 @media only screen and (min-width: 1200px) {
-  /* Desktop Styles Here */
-
-   .content-wrapper {
+  
+  .content-wrapper {
     max-width: 960px;
    }
 
+
 /* --Hero --*/
+
+.hero-area {
+  min-height: 700px;
+}
 
 .hero-area h1 {
   font-size: 3.75em;
