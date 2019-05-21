@@ -333,9 +333,14 @@ input[type=button] {
 }
 
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 .features p {
-    margin: 0;
-    text-align: center;
+  margin: 0;
+  text-align: center;
 }
 
 /* Reviews */
@@ -620,7 +625,7 @@ aside .content-wrapper .form
 }
 
 .features .features-item-description {
-    width: 50%;
+    width: 65%;
 }
 
 /* Reviews Area */
@@ -778,7 +783,7 @@ aside .content-wrapper .form-description, aside .content-wrapper .form {
 }
 
 .features article {
-    flex-basis: 33%;
+    flex-basis: 30%;
 }
 
 /* Reviews */
