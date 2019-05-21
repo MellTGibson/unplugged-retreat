@@ -299,6 +299,7 @@ input[type=text] {
   width: 100%;
   color: #2a423a;
   font-style: italic;
+  margin: 0;
 }
 
 input[type=button] {
