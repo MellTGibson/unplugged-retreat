@@ -160,7 +160,7 @@ address p {
 
 .content-wrapper {
     width: 90%;
-    margin: 50px 0;
+    margin: 40px 0;
 }
 
 /* --------------------- Base Header - Footer Styles -------------------------*/
@@ -299,8 +299,7 @@ input[type=text] {
   width: 100%;
   color: #2a423a;
   font-style: italic;
-  margin: 0;
-}
+ }
 
 input[type=button] {
   width: 100%;
@@ -427,7 +426,7 @@ input[type=button] {
 }
 
 .faq .content-wrapper{
-    margin: 50px 0 0 0;
+    margin: 40px 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
