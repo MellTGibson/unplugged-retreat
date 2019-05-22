@@ -157,7 +157,6 @@ address p {
     font-style: normal;
 }
 
-
 .content-wrapper {
     width: 90%;
     margin: 40px 0;
@@ -210,6 +209,7 @@ header nav ul {
     display: flex;
     justify-content: space-around;
     width: 100%; 
+    padding: 0;
 }
 
 header nav ul li {
@@ -775,7 +775,7 @@ footer .copyright {
 
 h3,
 h4 {
-  font-size: 1.875;
+  font-size: 1.875em;
 }
 
 p {
